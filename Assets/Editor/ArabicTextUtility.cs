@@ -47,7 +47,6 @@ public class ArabicTextUtility : EditorWindow {
 			
 			// current
 			hashNumShifted = textFieldA[i].GetHashCode() - 1569;
-			Debug.Log(hashNumShifted);
 			// following char
 			if (i + 1 < textFieldA.Length) {
 				followingHashShifted = textFieldA[i+1].GetHashCode() - 1569;
@@ -59,7 +58,7 @@ public class ArabicTextUtility : EditorWindow {
 				followingHashShifted = -1;
 			}
 			// previous char
-			if (i - 1 > 0) {
+			if (i - 1 >= 0) {
 				previousHashShifted = textFieldA[i-1].GetHashCode() - 1569;
 				if (HashIsArabic(previousHashShifted) == false) {
 					previousHashShifted = -1;
@@ -104,6 +103,8 @@ public class ArabicTextUtility : EditorWindow {
 				position = 3;
 			}
 			
+			Debug.Log(previousHashShifted);
+			Debug.Log(followingHashShifted);
 			
 			/*
 			 
