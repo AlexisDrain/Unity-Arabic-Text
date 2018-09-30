@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12e15049-c77b-4e2e-955b-fb5484388824" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ArabicTextUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ArabicTextUtility.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1379394501">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.extensions.open" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/ArabicTextUtility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+              <folding>
+                <marker date="1537810074118" expanded="false" signature="6:111" ph="..." />
+                <marker date="1537810074118" expanded="true" signature="159:7521" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="290:357" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="381:663" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="637:660" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="693:3428" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="877:3400" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="890:936" ph="/* 1) setup hash values: ... */" />
+                <marker date="1537810074118" expanded="true" signature="1066:1230" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1186:1225" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1230:1276" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1316:1477" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1434:1472" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1477:1522" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1530:1584" ph="/* 2) if letter isn't arabic. skip ... */" />
+                <marker date="1537810074118" expanded="true" signature="1631:1735" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="1743:1897" ph="/* 3) setup position ... */" />
+                <marker date="1537810074118" expanded="true" signature="1987:2011" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="2076:2100" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="2165:2189" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="2272:2333" ph="/* 4) get character from the glyphmap ... */" />
+                <marker date="1537810074118" expanded="true" signature="2397:3220" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="2456:2606" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="2661:2807" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="2862:3012" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3065:3215" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3285:3396" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3431:3545" ph="/* checks if hash code is in Arabic range. assumes that they have been shifted by 1569 positions ... */" />
+                <marker date="1537810074118" expanded="true" signature="3587:3672" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3631:3652" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3674:3809" ph="/* based on Glyphmap by Dina Lasheen - MSFT ... */" />
+                <marker date="1537810074118" expanded="true" signature="3866:3897" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3962:7516" ph="{...}" />
+                <marker date="1537810074118" expanded="true" signature="3974:4022" ph="/* Isolated, Final, Initial, Middle Forms ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ArabicTextUtility.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Editor/ArabicTextUtility.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1016" />
+    <option name="y" value="135" />
+    <option name="width" value="1750" />
+    <option name="height" value="954" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12e15049-c77b-4e2e-955b-fb5484388824" name="Default Changelist" comment="" />
+      <created>1537809761173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1537809761173</updated>
+      <workItem from="1537809765777" duration="898000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="898000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22483222" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ArabicTextUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+          <folding>
+            <marker date="1537810074118" expanded="false" signature="6:111" ph="..." />
+            <marker date="1537810074118" expanded="true" signature="159:7521" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="290:357" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="381:663" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="637:660" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="693:3428" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="877:3400" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="890:936" ph="/* 1) setup hash values: ... */" />
+            <marker date="1537810074118" expanded="true" signature="1066:1230" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1186:1225" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1230:1276" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1316:1477" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1434:1472" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1477:1522" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1530:1584" ph="/* 2) if letter isn't arabic. skip ... */" />
+            <marker date="1537810074118" expanded="true" signature="1631:1735" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="1743:1897" ph="/* 3) setup position ... */" />
+            <marker date="1537810074118" expanded="true" signature="1987:2011" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="2076:2100" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="2165:2189" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="2272:2333" ph="/* 4) get character from the glyphmap ... */" />
+            <marker date="1537810074118" expanded="true" signature="2397:3220" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="2456:2606" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="2661:2807" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="2862:3012" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3065:3215" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3285:3396" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3431:3545" ph="/* checks if hash code is in Arabic range. assumes that they have been shifted by 1569 positions ... */" />
+            <marker date="1537810074118" expanded="true" signature="3587:3672" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3631:3652" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3674:3809" ph="/* based on Glyphmap by Dina Lasheen - MSFT ... */" />
+            <marker date="1537810074118" expanded="true" signature="3866:3897" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3962:7516" ph="{...}" />
+            <marker date="1537810074118" expanded="true" signature="3974:4022" ph="/* Isolated, Final, Initial, Middle Forms ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

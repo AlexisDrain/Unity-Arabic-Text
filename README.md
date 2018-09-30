@@ -1,8 +1,11 @@
 # Unity-Arabic-Text  
-# Work in progress. will release by October.
+# It basically works. I just need a real project to solve all the edge cases.
+
 TODO:  
-- add حروف منفصلة
 - Switch Arabic numbers to English.  
-- Keep Tashkeel.  
+- Keep Tashkeel.
 - a static public function for ingame Arabic converting method.  
 - Namespace: ArabicText  
+
+Added. Needs Testing:  
+- added حروف منفصلة

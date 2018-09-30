@@ -60,7 +60,7 @@ public class ArabicTextUtility : EditorWindow {
 			// previous char
 			if (i - 1 >= 0) {
 				previousHashShifted = textFieldA[i-1].GetHashCode() - 1569;
-				if (HashIsArabic(previousHashShifted) == false) {
+				if (HashIsArabic(previousHashShifted) == false || HashIsDisconnected(previousHashShifted) == true) {
 					previousHashShifted = -1;
 				}
 			}
@@ -102,9 +102,6 @@ public class ArabicTextUtility : EditorWindow {
 			if (previousHashShifted != -1 && followingHashShifted != -1) {
 				position = 3;
 			}
-			
-			Debug.Log(previousHashShifted);
-			Debug.Log(followingHashShifted);
 			
 			/*
 			 
@@ -173,11 +170,23 @@ public class ArabicTextUtility : EditorWindow {
 
 		return false;
 	}
+	private bool HashIsDisconnected(int hashcode) {
+
+		for (int i = 0; i < disconectedLetters.Length; i += 1) {
+			
+			if (disconectedLetters[i] == hashcode) {
+				return true;
+			}
+		}
+
+		return false;
+	}
 	// based on Glyphmap by Dina Lasheen - MSFT
 	// https://blogs.msdn.microsoft.com/global_developer/2011/05/09/shaping-arabic-characters/
 
+	// connects with the previous letters, but doesn't connect the the next letter
 	private readonly int[] disconectedLetters = new int[] {
-		0, 1, 2, 3, 4, 6, 39, 40
+		0, 1, 2, 3, 4, 6, 14, 15, 16, 17, 39, 40, 42, 43, 44, 45
 	};
 	private readonly char[,] GlyphMap = new char[46, 4] 
 
