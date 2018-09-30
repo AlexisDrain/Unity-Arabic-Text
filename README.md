@@ -8,4 +8,4 @@ TODO:
 - Namespace: ArabicText  
 
 Added. Needs Testing:  
-- added حروف منفصلة
+- added special disconnected letters حروف منفصلة
